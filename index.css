@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+:root{
+    --primary-color : #1D4ED8;
+    --secondary-color : #ffffff;
+    --secondary-text-color :#1d1d1d93;
+    --background-color : #ebe9e9ce;
+}
+body{
+    padding : 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-header{
+background-color: var(--primary-color);
+border-bottom-left-radius: 1.1rem;
+padding-bottom: 0.1rem;
+}
+.list{
+    list-style: none;
+    display : inline;
+    padding : 1rem;
+}
+ul{
+    text-align: right;
+    margin-top: 0;
+}
+a{
+    text-decoration: none;
+    color : var(--secondary-color);  
+}
+a:active{
+    color: var(--secondary-text-color);
+}
+.top-header{
+    margin :0;
+    padding-top: 1rem;
+    padding-left:1.5rem;  
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+nav{
+    color : var(--secondary-color);
+}
+.container-main{
+    width : 60%;
+    margin :2rem auto;
+    padding : 5rem;
+    border:solid black;
+    background-color: yellow;
+    border-radius: 2rem;
+    text-align: center;
+}
+.heading-main{
+    text-align: center;
+    padding-bottom : 3rem;
+}
+.secondary-heading{
+    text-align: center;
+    font-size: medium;
+}
+#angle-1{
+    margin : 1rem auto;
+    display: block;
+    width : 10rem;
+    height : 3rem;
+    border : solid black 0.2rem;
+    border-radius : 0.5rem;
+    color: blue;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#angle-2{
+    margin : 1rem auto;
+    display: block;
+    width : 10rem;
+    height : 3rem;
+    border : solid black 0.2rem;
+    border-radius : 0.5rem;
+    color: blue;
+    font-size: 1.5rem;
+    text-align: center;
+}
+#angle-3{
+    margin : 1rem auto;
+    display: block;
+    width : 10rem;
+    height : 3rem;
+    border : solid black 0.2rem;
+    border-radius : 0.5rem;
+    color: blue;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.section-list{
+    margin : 0.5rem, auto;
+    text-align: center;
+    padding : 1rem;
+}
+#submit-btn{
+        border-style: solid;
+        background-color: var(--secondary-color);
+        border-radius: 0.5rem;
+        margin :2rem auto ;
+        color: var(--primary-color);
+        padding : 0.5rem 1rem;   
+        display : block;
+
+}
+#output-box{
+    padding-top : 2rem;
+    
+    text-align: center;
+    margin : auto;
+    font-size:2rem ;
+}
+.side-input{
+padding : 1rem;
+border-radius: 0.5rem;
+margin:auto;
+text-align: center;
+}
+footer{
+    background-color: var(--primary-color);
+    border-top-right-radius: 1.1rem;
+}
+ul.footer-links{
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 1.3rem;
+}
+h2.footer-heading{
+    padding-top :2rem;
+    margin-top: 0;
+    color :var(--secondary-color);
+    text-align: center;
+}
+ul li{
+    display: inline;
+    padding: 0 1.5rem;
+
+}
+/*quiz*/
+.quiz-container{
+    width :90%;
+    padding : 1rem;
+    text-align: start;
+}
+#quiz-form{
+    text-align: center;
+    width :80%;
+    margin:auto;
+
+}
