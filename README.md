@@ -1,5 +1,5 @@
 
-# Traingle game
+# Triangle game
 This web app contains so many games on triagles like quiz, area finding, angle finding and all. 
 
 ## Acknowledgements
