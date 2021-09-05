@@ -4,143 +4,114 @@
     --secondary-color : #ffffff;
     --secondary-text-color :#1d1d1d93;
     --background-color : #ebe9e9ce;
+    --button-border :#3b82f6;
+    --button-color : #ffffff;
 }
+
 body{
     padding : 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 .nav-header{
-background-color: var(--primary-color);
-border-bottom-left-radius: 1.1rem;
-padding-bottom: 0.1rem;
-}
-.list{
-    list-style: none;
-    display : inline;
-    padding : 0.5rem;
+    max-width:500px;
+    height: 5rem;
+	background-image :linear-gradient(rgb(14, 196, 252), pink);
+	box-shadow : -1rem 1rem 5rem rgb(39, 224, 248) ;
+	border-radius: 1rem;
+    text-align: center;
+    margin: auto;
 }
 ul{
-    text-align: right;
-    margin-top: 0;
+    padding :1rem 0;
+    margin : 0 auto;
 }
 a{
     text-decoration: none;
     color : var(--secondary-color);  
 }
-a:active{
-    color: var(--secondary-text-color);
-}
-.top-header{
-    margin :0;
-    padding-top: 1rem;
-    padding-left:1.5rem;  
-    font-weight: 800;
-    font-size: 1.2rem;
-}
 nav{
     color : var(--secondary-color);
 }
 .container-main{
-    width : 60%;
-    margin :2rem auto;
-    padding : 5rem;
-    border:solid black;
-    background-color: yellow;
-    border-radius: 2rem;
-    text-align: center;
-}
-.heading-main{
-    text-align: center;
-    padding-bottom : 3rem;
-}
-.secondary-heading{
-    text-align: center;
-    font-size: medium;
-}
-#angle-1{
-    margin : 1rem auto;
-    display: block;
-    width : 10rem;
-    height : 3rem;
-    border : solid black 0.2rem;
-    border-radius : 0.5rem;
-    color: blue;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-#angle-2{
-    margin : 1rem auto;
-    display: block;
-    width : 10rem;
-    height : 3rem;
-    border : solid black 0.2rem;
-    border-radius : 0.5rem;
-    color: blue;
-    font-size: 1.5rem;
-    text-align: center;
-}
-#angle-3{
-    margin : 1rem auto;
-    display: block;
-    width : 10rem;
-    height : 3rem;
-    border : solid black 0.2rem;
-    border-radius : 0.5rem;
-    color: blue;
-    font-size: 1.5rem;
-    text-align: center;
-}
-
-.section-list{
-    margin : 0.5rem, auto;
-    text-align: center;
+    border-radius: 1rem;
+    max-width : 500px;
     padding : 1rem;
+    margin :5rem  auto;
+	background-image :linear-gradient(rgb(14, 196, 252), pink);
+	text-align: center;
+	box-shadow : -1rem 1rem 5rem rgb(39, 224, 248) ;
 }
-#submit-btn{
-        border-style: solid;
-        background-color: var(--secondary-color);
-        border-radius: 0.5rem;
-        margin :2rem auto ;
-        color: var(--primary-color);
-        padding : 0.5rem 1rem;   
-        display : block;
-
-}
-#output-box{
-    padding-top : 2rem;
-    
+#angle-1::placeholder{
     text-align: center;
-    margin : auto;
-    font-size:2rem ;
+}
+#angle-2::placeholder{
+    text-align: center;
+}
+#angle-3::placeholder{
+    text-align: center;
+}
+
+#angle-1 {
+    padding : 1rem;
+    margin : 1.2rem auto;
+    border : solid 0.1rem;
+    border-radius: 1.5rem;
+}
+
+#angle-2 {
+    padding : 1rem;
+    margin : 1.2rem auto;
+    border : solid 0.1rem;
+    border-radius: 1.5rem;
+}
+#angle-3 {
+    padding : 1rem;
+    margin : 1.2rem auto;
+    border : solid 0.1rem;
+    border-radius: 1.5rem;
 }
 .side-input{
-padding : 1rem;
-border-radius: 0.5rem;
-margin:auto;
-text-align: center;
+    padding : 1rem;
+    margin : 1.2rem auto;
+    border : solid 0.1rem;
+    border-radius: 1.5rem;  
 }
-footer{
-    background-color: var(--primary-color);
-    border-top-right-radius: 1.1rem;
+#submit-btn {
+	font-size: 18px;
+	display: block;
+	width: 30%;
+	margin:  auto;
+	padding: 6px 15px;
+	border-radius: 50px;
+	color: var(--button-color);
+	background-image: linear-gradient(rgb(192, 192, 192),blue);
+	border: 4px solid var(--button-border);
+	cursor: pointer;
+	text-align: center;
+	transition: all 250ms;
 }
-ul.footer-links{
-    list-style: none;
-    margin-bottom: 0;
-    padding-left: 0;
+.footer{
+	margin : auto;
+	max-width : 500px;
+	background-image :linear-gradient(rgb(14, 196, 252), pink);
+	text-align: center;
+	box-shadow : -1rem 1rem 5rem rgb(39, 224, 248) ;
+	border-radius: 1rem;
+}
+.footer-links{
+	padding:1%;
+	padding: 2rem 0;
     text-align: center;
-    padding-bottom: 1.3rem;
 }
-h2.footer-heading{
-    padding-top :2rem;
-    margin-top: 0;
-    color :var(--secondary-color);
-    text-align: center;
+li{
+	display:inline;
+	padding :1rem;
+	
 }
-ul li{
-    display: inline;
-    padding: 0 1.5rem;
+img{
+	width : 3rem;
+	height : 3rem;
 
 }
 /*quiz*/
