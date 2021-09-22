@@ -3,7 +3,7 @@ var submitBtnRef = document.querySelector("#submit-btn");
 
 var outputBox = document.querySelector("#output-box");
 
-const correctAnswers = ["90", "right angled", "one right angle", "12, 16, 20", "Equilateral triangle", "100", "30", "a+b+c", "none", "45"];
+const correctAnswers = ["55", "right angled", "180", "12, 16, 20", "40", "Equilateral triangle", "85", "a+b+c", "none", "3"];
 
 function showOutput(score) {
     outputBox.innerHTML = `The score is ${score}`;
