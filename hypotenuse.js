@@ -8,7 +8,7 @@ function calculateSumOfSquares(a, b) {
 }
 
 function calculateHypotenuse() {
-  if ((Number(sides[0].value) && Number(sides[1].value)) > 0) {
+  if ((Number(sides[0].value)> 0 && Number(sides[1].value)) > 0) {
     hypotenuse = Math.sqrt(
       calculateSumOfSquares(Number(sides[0].value), Number(sides[1].value))
     );
